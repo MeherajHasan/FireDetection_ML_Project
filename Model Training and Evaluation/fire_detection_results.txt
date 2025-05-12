@@ -1,0 +1,39 @@
+--- Random Forest (Without Transfer Learning) ---
+              precision    recall  f1-score   support
+
+    Non-Fire       0.98      0.97      0.97       315
+        Fire       0.97      0.98      0.98       349
+
+    accuracy                           0.97       664
+   macro avg       0.97      0.97      0.97       664
+weighted avg       0.97      0.97      0.97       664
+
+--- Transfer Learning Model (VGG16) ---
+              precision    recall  f1-score   support
+
+    Non-Fire       0.97      0.99      0.98       315
+        Fire       0.99      0.98      0.98       349
+
+    accuracy                           0.98       664
+   macro avg       0.98      0.98      0.98       664
+weighted avg       0.98      0.98      0.98       664
+
+--- KNN (Without Transfer Learning) ---
+              precision    recall  f1-score   support
+
+    Non-Fire       0.69      1.00      0.81       315
+        Fire       1.00      0.59      0.74       349
+
+    accuracy                           0.78       664
+   macro avg       0.84      0.79      0.78       664
+weighted avg       0.85      0.78      0.77       664
+
+--- EfficientNet (Transfer Learning) ---
+              precision    recall  f1-score   support
+
+    Non-Fire       0.97      0.98      0.98       315
+        Fire       0.99      0.97      0.98       349
+
+    accuracy                           0.98       664
+   macro avg       0.98      0.98      0.98       664
+weighted avg       0.98      0.98      0.98       664
